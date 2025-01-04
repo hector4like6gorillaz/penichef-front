@@ -1,6 +1,6 @@
 part of 'home_bloc.dart';
 
-class HomeState extends Equatable {
+class HomeState extends Equatable { 
   const HomeState({
     this.state = ApiState.initial,
     this.numero = 50,

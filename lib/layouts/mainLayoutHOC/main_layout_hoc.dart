@@ -1,4 +1,4 @@
-import 'package:base_app/components/navigationBar/navigation_bar.dart';
+//import 'package:base_app/components/navigationBar/navigation_bar.dart';
 import 'package:base_app/utils/constans.dart';
 import 'package:flutter/material.dart';
 
@@ -28,9 +28,6 @@ class MainLayoutHOC extends StatelessWidget {
                   backgroundColor: boneColor,
                   title: Text(title),
                 )
-              : null,
-          bottomNavigationBar: showBottombar
-              ? const NaviGationBottomBar(indexNavigation: 0)
               : null,
           body: children,
         ),

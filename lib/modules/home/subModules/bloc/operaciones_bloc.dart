@@ -29,6 +29,7 @@ class OperacionesBloc extends Bloc<OperacionesEvent, OperacionesState> {
           method: Method.get, endpoint: Urls.getMewTwo);
       if (response.statusCode == 200) {
         Map<String, dynamic> data = jsonDecode(response.body);
+        print(data);
 
         //DateSolicitud dataFecha = DateSolicitud.fromJson(data);
 
